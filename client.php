@@ -1,4 +1,3 @@
-<pre>
 <?php
  
 ini_set("soap.wsdl_cache_enabled", "0");
@@ -17,5 +16,3 @@ foreach($aOptions as $key => $val) {
 }
 var_dump($oSoapClient->getUser());
 ?>
-</pre>
-[<a href=".">Voltar</a>]
