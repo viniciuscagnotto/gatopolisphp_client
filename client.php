@@ -4,7 +4,7 @@
 ini_set("soap.wsdl_cache_enabled", "0");
  
 // A seguir você devera informar a URL do webservice.
-$oSoapClient = new SoapClient("http://gatopolisphpclient.azurewebsites.net/service.wsdl");
+$oSoapClient = new SoapClient("http://gatopolisphp.azurewebsites.net/service.wsdl");
  
 $aOptions = array (
        "start_debug"=> "1",
